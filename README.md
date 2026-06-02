@@ -4,7 +4,7 @@
 
 ---
 
-## 📋 Project Overview
+##  Project Overview
 
 This project builds a credit risk assessment model that predicts the probability of loan default based on an applicant's financial history. It demonstrates the full machine learning workflow: data loading, feature engineering, model training, evaluation, and visualization.
 
@@ -12,7 +12,7 @@ This project builds a credit risk assessment model that predicts the probability
 
 ---
 
-## 🗂️ Files
+##  Files
 
 | File | Description |
 |------|-------------|
@@ -23,7 +23,7 @@ This project builds a credit risk assessment model that predicts the probability
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ```bash
 pip install -r requirements.txt
@@ -39,7 +39,7 @@ The script will:
 
 ---
 
-## 📊 Dataset Features
+##  Dataset Features
 
 ### Raw Features (12)
 | Feature | Description |
@@ -74,7 +74,7 @@ The script will:
 
 ---
 
-## 🤖 Algorithms
+##  Algorithms
 
 | Algorithm | Notes |
 |-----------|-------|
@@ -87,7 +87,7 @@ Class imbalance (~4.5% default rate) is handled via `class_weight='balanced'`.
 
 ---
 
-## 📈 Evaluation
+##  Evaluation
 
 | Metric | Purpose |
 |--------|---------|
@@ -100,7 +100,7 @@ Class imbalance (~4.5% default rate) is handled via `class_weight='balanced'`.
 
 ---
 
-## 🏆 Results
+##  Results
 
 | Model | Test ROC-AUC | Precision | Recall | F1-Score |
 |-------|-------------|-----------|--------|----------|
@@ -113,7 +113,7 @@ Class imbalance (~4.5% default rate) is handled via `class_weight='balanced'`.
 
 ---
 
-## 🔍 Key Insights
+##  Key Insights
 
 - **Top Risk Predictors:** `debt_stress_score`, `dti_utilization_interaction`, `num_delinquencies_2y`
 - **Protective Factors:** Higher `income_tier`, `age_income_interaction`, `education_level`
@@ -122,7 +122,7 @@ Class imbalance (~4.5% default rate) is handled via `class_weight='balanced'`.
 
 ---
 
-## 💡 Recommendations
+##  Recommendations
 
 1. **Threshold Tuning:** Adjust cutoff based on cost of missed defaults vs. lost good customers
 2. **Ensemble:** Combine Logistic Regression (recall) + Random Forest (precision) via stacking
@@ -132,7 +132,7 @@ Class imbalance (~4.5% default rate) is handled via `class_weight='balanced'`.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Python 3.8+**
 - **NumPy** — Numerical computing
